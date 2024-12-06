@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="406.0" prefWidth="590.0" style="-fx-background-color: #34b4eb;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.Controllers.UserArticleViewController">
+    <children>
+        <TabPane fx:id="categoryTabPane" layoutX="10.0" layoutY="10.0" prefHeight="340" prefWidth="580" style="-fx-background-color: #34b4eb;">
+            <tabs>
+                <Tab text="Technology">
+                    <AnchorPane>
+                        <ListView fx:id="technologyListView" layoutY="6.0" prefHeight="300" prefWidth="565" />
+                    </AnchorPane>
+                </Tab>
+                <Tab text="Health">
+                    <AnchorPane>
+                        <ListView fx:id="healthListView" layoutX="5" layoutY="5" prefHeight="300" prefWidth="565" />
+                    </AnchorPane>
+                </Tab>
+                <Tab text="Sport">
+                    <AnchorPane>
+                        <ListView fx:id="sportListView" layoutX="5" layoutY="5" prefHeight="300" prefWidth="565" />
+                    </AnchorPane>
+                </Tab>
+                <Tab text="General">
+                    <AnchorPane>
+                        <ListView fx:id="generalListView" layoutX="5" layoutY="5" prefHeight="300" prefWidth="565" />
+                    </AnchorPane>
+                </Tab>
+                <Tab text="Recommendations">
+                    <AnchorPane>
+                        <ListView fx:id="recommendationListView" layoutX="5" layoutY="5" prefHeight="300" prefWidth="565" />
+                    </AnchorPane>
+                </Tab>
+            </tabs>
+        </TabPane>
+
+        <!-- Buttons -->
+        <Button fx:id="readButton" layoutX="20" layoutY="370" style="-fx-background-color: #a3bec9;" text="Read Article" />
+        <Button fx:id="recommendationButton" layoutX="130" layoutY="370" style="-fx-background-color: #a3bec9;" text="Get Recommendations" />
+    </children>
+</AnchorPane>

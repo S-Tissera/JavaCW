@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #34b4eb;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.Controllers.ToWindowController">
+    <children>
+        <Button layoutX="73.0" layoutY="107.0" mnemonicParsing="false" onAction="#toAddArticle" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="Add Article" />
+        <Button layoutX="73.0" layoutY="173.0" mnemonicParsing="false" onAction="#toDeleteArticle" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="Delete Article" />
+        <Button layoutX="73.0" layoutY="239.0" mnemonicParsing="false" onAction="#toUpdateArticle" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="Update Article" />
+        <Button layoutX="73.0" layoutY="306.0" mnemonicParsing="false" onAction="#toViewArticle" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="View Article" />
+        <Button layoutX="386.0" layoutY="130.0" mnemonicParsing="false" onAction="#toViewUser" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="View User" />
+        <Button layoutX="386.0" layoutY="211.0" mnemonicParsing="false" onAction="#toDeleteUser" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="Delete User" />
+        <Button layoutX="386.0" layoutY="293.0" mnemonicParsing="false" onAction="#toAddAdmin" prefHeight="56.0" prefWidth="122.0" style="-fx-background-color: #a3bec9;" text="Sign up an Admin" />
+        <Label layoutX="194.0" layoutY="21.0" text="Admin Dashboard">
+            <font>
+                <Font name="System Bold" size="25.0" />
+            </font></Label>
+    </children>
+</AnchorPane>
