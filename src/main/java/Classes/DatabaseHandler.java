@@ -24,7 +24,7 @@ public class DatabaseHandler {
         config.setUsername(DB_USER);
         config.setPassword(DB_PASSWORD);
         config.setMaximumPoolSize(10);  // Set the maximum number of connections in the pool
-        config.setConnectionTimeout(30000);  // Set connection timeout
+        config.setConnectionTimeout(30000);  // Set connection timeou
         config.setIdleTimeout(600000);  // Set idle timeout
         config.setMaxLifetime(1800000);  // Set maximum lifetime for a connection
 
